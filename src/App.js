@@ -22,9 +22,13 @@ class App extends Component {
             <div className="video-container">
               <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" width="500" height="300" src="https://video-api.wsj.com/api-video/player/iframe.html?guid=B51D47B6-91DC-4D84-BD27-74AF3E587D9A"></iframe>
             </div>
+            <div className="container">
+              <iframe src="https://www.npr.org/player/embed/459637420/459637421" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player">
+              </iframe>
+            </div>
 
           <div className="card-panel">
-            <span className="blue-text text-darken-2">This is a card panel with dark blue text</span>
+            <span className="blue-text text-darken-2">The Fed created the money after the financial crisis to try to help the economy, but the money could eventually create inflation or cause bubbles. </span>
           </div>
 
           <div className="row">
