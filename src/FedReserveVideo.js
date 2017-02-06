@@ -7,6 +7,8 @@ class FedReserveVideo extends Component {
       'justify-content': 'center',
     }
 
+
+
     return (
         <div >
           <h5 style={style}>How Federal Reserve Set The Interest Rate</h5>
