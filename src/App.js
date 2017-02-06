@@ -4,6 +4,8 @@ import './App.css';
 import NavBar from './NavBar';
 import FedReserveVideo from './FedReserveVideo';
 import NPRpodcastAudio from './NPRpodcastAudio';
+import Footer from './Footer';
+import Introduction from './Introduction'
 
 class App extends Component {
   render() {
@@ -11,12 +13,13 @@ class App extends Component {
       <div>
         <NavBar />
         <div className="container">
+          <Introduction />
           <FedReserveVideo />
           <NPRpodcastAudio />
-
         </div>
-      </div>
+        <Footer />
 
+      </div>
     );
   }
 }
