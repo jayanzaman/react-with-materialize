@@ -6,8 +6,12 @@
     "react-scripts": "0.8.5"
   },
   "dependencies": {
+    "chart.js": "^2.4.0",
     "materialize-css": "^0.98.0",
+    "plotly.js": "^1.22.0",
     "react": "^15.4.2",
+    "react-burger-menu": "^1.10.10",
+    "react-d3-components": "^0.6.5",
     "react-dom": "^15.4.2"
   },
   "scripts": {
