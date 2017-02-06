@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 
 class FedReserveVideo extends Component {
   render(){
+    const style = {
+      display: 'flex',
+      'justify-content': 'center',
+    }
+
     return (
-        <div>
-          <h4>How Federal Reserve Set The Interest Rate</h4>
+        <div >
+          <h5 style={style}>How Federal Reserve Set The Interest Rate</h5>
 
             <div className="video-container">
               <iframe allowFullScreen="true" frameBorder="0" width="500" height="300" src="https://video-api.wsj.com/api-video/player/iframe.html?guid=B51D47B6-91DC-4D84-BD27-74AF3E587D9A"></iframe>
