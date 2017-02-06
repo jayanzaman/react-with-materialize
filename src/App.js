@@ -1,30 +1,26 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar.js'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <nav className="blue">
-          <div className="nav-wrapper">
-            <a href="#" className="brand-logo">Federal Monetary Policy</a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><a href="sass.html">Federal Reserve</a></li>
-              <li><a href="badges.html">Commercial Bank</a></li>
-              <li><a href="collapsible.html">Household Bank</a></li>
-            </ul>
-          </div>
-        </nav>
+        <NavBar />
         <div className="container">
           <h4>How Federal Reserve Set The Interest Rate</h4>
 
             <div className="video-container">
               <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" width="500" height="300" src="https://video-api.wsj.com/api-video/player/iframe.html?guid=B51D47B6-91DC-4D84-BD27-74AF3E587D9A"></iframe>
             </div>
+            <div className="card-panel">
+              <span className="blue-text text-darken-2">The Federal Reserve has kept interest rates at near zero since the 2008 financial crisis. To raise them, it has come up with a new set of tools.ss</span>
+            </div>
             <div className="container">
-              <iframe src="https://www.npr.org/player/embed/459637420/459637421" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player">
+              <iframe src="https://www.npr.org/player/embed/459637420/459637421" width="100%" height="218" frameborder="0" scrolling="no" title="NPR embedded audio player">
               </iframe>
+
             </div>
 
           <div className="card-panel">
